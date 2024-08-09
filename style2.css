@@ -1,0 +1,24 @@
+.smain{
+    width: 800px;
+    height: 600px;
+    background: red;
+
+}
+.worl{
+   max-width:800px ; 
+  min-height:100px ;  
+    background: #93C2CC;
+    padding-left: 40px;
+    padding-top: 1px;
+}
+.lord{
+  max-width: 800px;
+  height: 40px;
+  background: blue;
+}
+.menu{
+    width: 164px;
+    height: 40px;
+    background: #B9DAE1;
+    text-align: center;
+}
