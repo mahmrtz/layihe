@@ -1,56 +1,88 @@
 .main{
     width: 1200px;
-    height:800px;
+    min-height:800px;
     background: #5C4A02;
     margin-left: 200px;
+    float: left;
+    box-sizing: border-box;
 }
+    
 .demos{
-    width: 750px;
-    height: 100px;
+    width: 800px;
+    height: 150px;
     background: #7E6000;
-    margin-left: 230px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 25px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding-top: 58px;
+    padding-left: 300px;
 }
+
+
+
+
 .menus{
     width: 1200px;
-    height: 50px;
+    min-height: 50px;
     background-color: #7E6000;
     text-align: center;
+    box-sizing: border-box;
+    float: left;
+    
 }
-.lorems{
-    width: 800px;
-    height: 600px;
-    background: rgb(255, 255, 255);
-    margin-left: 200px;
-   margin-top: 20px;
-}
-.won{
-    width: 150px;
-    height: 150px;
-    background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
+
+
+
+.menu {
+    float: left;
+    box-sizing: border-box;
+    margin-left: 100px;
+    font-size: 20px;
     color: white;
-    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
-.win{
-    width: 150px;
-    height: 150px;
-    background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
-    color: white;
-    text-align: center;
+
+#last {
+    margin-right: 100px;
 }
-.wen{
-    width: 150px;
-    height: 150px;
+
+.menu:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+
+.bottom {
+    width: 900px;
+    min-height: 600px;
+    background: white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 150px;
+    margin-bottom: 125px;
+    margin-top: 50px;
+}
+
+
+.bottom span {
+    font-size: 30px;
+    margin-left: 270px;
+    color: #7E6000;
+}
+
+
+.m-boxes {
+    width: 200px;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
     background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
-    color: white;
-    text-align: center;
+    margin-left: 74px;
+    margin-top: 200px;
 }
 
