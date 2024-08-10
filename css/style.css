@@ -1,56 +1,122 @@
 .main{
-    width: 1200px;
-    height:800px;
-    background: #5C4A02;
-    margin-left: 200px;
-}
-.demos{
-    width: 750px;
-    height: 100px;
-    background: #7E6000;
-    margin-left: 230px;
-}
-.menus{
-    width: 1200px;
-    height: 50px;
-    background-color: #7E6000;
-    text-align: center;
-}
-.lorems{
     width: 800px;
-    height: 600px;
-    background: rgb(255, 255, 255);
-    margin-left: 200px;
-   margin-top: 20px;
+    min-height:400px;
+    background: #5C4A02;
+    margin-left: 400px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 27px;
 }
-.won{
-    width: 150px;
-    height: 150px;
+    
+.logo{
+    width: 600px;
+    height: 75px;
     background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
+    margin-left: 100px;
+    margin-bottom: 15px;
     color: white;
-    text-align: center;
-}
-.win{
-    width: 150px;
-    height: 150px;
-    background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
-    color: white;
-    text-align: center;
-}
-.wen{
-    width: 150px;
-    height: 150px;
-    background: #7E6000;
-    margin-top: 100px;
-    margin-left: 70px;  
-    float: left; 
-    color: white;
-    text-align: center;
+    font-size: 12.5px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 25px;
+    padding-top: 29px;
+    padding-left: 250px;
 }
 
+
+
+
+.menus{
+    width: 800px;
+    min-height: 25px;
+    background-color: #7E6000;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    
+}
+
+
+
+.menu {
+    float: left;
+    box-sizing: border-box;
+    margin-left: 77px;
+    font-size: 10px;
+    color: white;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
+}
+
+#last {
+    margin-right: 50px;
+}
+
+.menu:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+
+.bottom {
+    width: 650px;
+    min-height: 300px;
+    background: white;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 75px;
+    margin-bottom: 62.5px;
+    margin-top: 25px;
+}
+
+
+.bottom span {
+    font-size: 15px;
+    margin-left: 235px;
+    color: #7E6000;
+}
+
+
+.m-boxes {
+    width: 120px;
+    height: 120px;
+    float: left;
+    box-sizing: border-box;
+    background: #7E6000;
+    margin-left: 75px;
+    margin-top: 100px;
+    padding-top: 47px;
+    padding-left: 37px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.m-boxes:hover {
+    background-color: #604a02;
+    color: gray;
+}
+
+
+.text {
+    margin-top: 15px;
+}
+
+.bottom-down {
+    min-height: 200px;
+    width: 650px;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.bottom-down h2 {
+    margin-left: 20px;
+    color: #5C4A02;
+}
+
+.bottom-down p {
+    color: #5C4A02;
+   margin-left: 15px;
+   margin-right: 15px;
+}
