@@ -1,0 +1,62 @@
+body{
+    background-image:url(../img/lahiye_bac.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+#main{
+ min-height: 547px;
+  width: inherit;
+  float: left;
+}
+.H1{
+    margin-left:150px ;
+    font-size: 30px;
+    color: darkblue;
+    display:inline-block;
+    float: left;
+}
+.Lorem1 {
+    margin-top: 90px;
+    margin-left: 700px;
+    font-size: 15px;
+    
+}
+#head{
+    width: inherit;
+    min-height: 200px;
+    float: left;
+}
+.Shapes{
+   min-width: 200px;
+    height:50px ;
+    margin-left:100px ;
+    display: block;
+}
+.Shapes1{
+    width:110px;
+    height: 100%;
+    background-color:#D3AD30 ;
+    border-radius: 30px;
+    float: left;
+}
+.Shapes2{
+    width:80px;
+    height: 100%;
+    background-color:#D3AD30 ;
+    border-radius: 100%;
+    float: left; 
+    margin-left: 10px;
+}
+.icon{
+    width: inherit;
+    min-height: 200px;
+    float: left;
+    margin-top: 100px;
+}
+.icon i{
+    width: inherit;
+    min-height: 200px;
+    float: left;
+
+}
