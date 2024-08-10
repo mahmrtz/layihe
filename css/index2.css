@@ -20,6 +20,7 @@ body{
   height: 40px;
   background: blue;
 }
+
 .menu{
     width: 133.3px;
     height: 40px;
@@ -27,6 +28,16 @@ body{
     text-align: center;
     box-sizing: border-box;
     float: left;
+    padding-top: 10px;
+   
+}
+.menu span a{
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.menu span a:hover{
+  color: #4f1c1c;
 }
 
 .war{
