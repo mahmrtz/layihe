@@ -38,6 +38,18 @@
 
 
 
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+
+
 .menu {
     float: left;
     box-sizing: border-box;
@@ -94,6 +106,7 @@
 .m-boxes:hover {
     background-color: #604a02;
     color: gray;
+    cursor: pointer;
 }
 
 

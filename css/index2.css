@@ -15,51 +15,20 @@ body{
     padding-left: 40px;
     padding-top: 1px;
 }
-.lord{
+.menu-top{
   max-width: 800px;
   height: 40px;
   background: blue;
 }
 .menu{
-    width: 164px;
+    width: 133.3px;
     height: 40px;
     background: #B9DAE1;
     text-align: center;
     box-sizing: border-box;
     float: left;
 }
-.p{
-  width: 150px;
-  height: 40px;
-  background: #B9DAE1;
-  text-align: center;
-  box-sizing: border-box;
-  float: left;
-}
-.l{
-  width: 150px;
-  height: 40px;
-  background: #B9DAE1;
-  text-align: center;
-  box-sizing: border-box;
-  float: left;
-}
-.m{
-  width: 156px;
-  height: 40px;
-  background: #B9DAE1;
-  text-align: center;
-  box-sizing: border-box;
-  float: left;
-}
-.a{
-  width: 180px;
-  height: 40px;
-  background: #B9DAE1;
-  text-align: center;
-  box-sizing: border-box;
-  float: left;
-}
+
 .war{
   width: 800px;
   height: 460px;
