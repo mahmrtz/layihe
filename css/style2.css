@@ -1,0 +1,67 @@
+body{
+  background: grey;
+}
+.smain{
+    width: 800px;
+    height: 600px;
+    background: red;
+    margin-left: 300px;
+
+}
+.worl{
+   max-width:800px ; 
+  min-height:100px ;  
+    background: #93C2CC;
+    padding-left: 40px;
+    padding-top: 1px;
+}
+.lord{
+  max-width: 800px;
+  height: 40px;
+  background: blue;
+}
+.menu{
+    width: 164px;
+    height: 40px;
+    background: #B9DAE1;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+}
+.p{
+  width: 150px;
+  height: 40px;
+  background: #B9DAE1;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+}
+.l{
+  width: 150px;
+  height: 40px;
+  background: #B9DAE1;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+}
+.m{
+  width: 156px;
+  height: 40px;
+  background: #B9DAE1;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+}
+.a{
+  width: 180px;
+  height: 40px;
+  background: #B9DAE1;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+}
+.war{
+  width: 800px;
+  height: 460px;
+  background: #859C80;
+}
