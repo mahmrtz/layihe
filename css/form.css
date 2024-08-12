@@ -1,0 +1,25 @@
+.back {
+    float: left;
+    box-sizing: border-box;
+    width: 70px;
+    height: 35px;
+    margin-left: 20px;
+    border-radius: 5%;
+    background: gray;
+    margin-top: 20px;
+    padding-left: 19px;
+    padding-top: 9px;
+    font-size: small;
+    transition: 0.3s;
+}
+
+.back:hover {
+    background: black;
+    cursor: pointer;
+    color: white;
+}
+
+#nig {
+    text-decoration: none;
+    color: black;
+}

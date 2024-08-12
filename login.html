@@ -3,73 +3,36 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="css/login.css">
 
-.input-container {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  width: 100%;
-  margin-bottom: 15px;
-}
 
-.icon {
-  padding: 10px;
-  background: darkorange;
-  color: white;
-  min-width: 50px;
-  text-align: center;
-}
 
-.input-field {
-  width: 100%;
-  padding: 10px;
-  outline: none;
-}
-
-.input-field:focus {
-  border: 2px solid darkorange;
-}
-
-/* Set a style for the submit button */
-.btn {
-  background-color: darkorange;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-</style>
 </head>
 <body>
 
 <form action="/action_page.php" style="max-width:500px;margin:auto">
   <h2>Qeydiyyatdan keçin</h2>
-  <div class="input-container">
-    <i class="fa fa-user icon"></i>
+  <div class="input-container" style="margin-bottom: 10px;">
     <input class="input-field" type="text" placeholder="Adınız" name="usrnm">
   </div>
 
-  <div class="input-container">
-    <i class="fa fa-envelope icon"></i>
+  <div class="input-container" style="margin-bottom: 10px;">
     <input class="input-field" type="text" placeholder="Emailiniz" name="email">
   </div>
   
-  <div class="input-container">
-    <i class="fa fa-key icon"></i>
+  <div class="input-container" style="margin-bottom: 10px;">
     <input class="input-field" type="password" placeholder="Kodunuz" name="psw">
   </div>
 
-  <button  type="submit" class="btn"><a href="index.html" style="text-decoration: none; color: black;">Qeydiyyatdan keçin</a></button>
+  <button  type="submit"><a href="index.html" style="text-decoration: none; color: black;">Qeydiyyatdan keçin</a></button>
 </form>
+
+
+<a href="index.html" id="nig"><div class="back">
+ Home
+</div>
+</a>
 
 </body>
 </html>
